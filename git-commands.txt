@@ -1,0 +1,20 @@
+git init
+git status
+python .\testing.py
+git status
+git add .\testing.py
+git status
+git rm --cached .\testing.py
+git status
+git add .\testing.py
+git status
+git commit -m "added testing files"
+git status
+rm .\testing.py
+ls
+clear
+ls
+git status
+git restore testing.py
+git status
+git log
